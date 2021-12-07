@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '../shared';
-const HeadImage = require('../../assets/bg-header-desktop.png');
 
 function Header() {
 	return (
@@ -11,12 +10,13 @@ function Header() {
 				alignItems: 'center',
 				flexDirection: 'column',
 				width: '100%',
-				height: 200,
+				backgroundRepeat: 'no-repeat',
 				backgroundImage:
 					'url(' +
-					'https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350' +
+					'https://raw.githubusercontent.com/edisonAlbaSarmiento/Clipboard-landing-page-challenge-hub/main/src/assets/bg-header-desktop.png' +
 					')',
 			}}>
+			<img src='https://raw.githubusercontent.com/edisonAlbaSarmiento/Clipboard-landing-page-challenge-hub/main/src/assets/logo.svg' />
 			<h1>A history of enerything you copy</h1>
 			<div
 				style={{
