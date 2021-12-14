@@ -18,17 +18,19 @@ function Header() {
 			}}>
 			<img src='https://raw.githubusercontent.com/edisonAlbaSarmiento/Clipboard-landing-page-challenge-hub/main/src/assets/logo.svg' />
 			<h1>A history of enerything you copy</h1>
+			<h4>A history of enerything you copy</h4>
+
 			<div
 				style={{
-					width: '10%',
+					width: '15%',
 
 					display: 'flex',
 					justifyContent: 'space-between',
 					alignItems: 'center',
 					flexDirection: 'row',
 				}}>
-				<Button />
-				<Button />
+				<Button text='Dowload for iOS' />
+				<Button text='Dowload for Mac' />
 			</div>
 		</div>
 	);

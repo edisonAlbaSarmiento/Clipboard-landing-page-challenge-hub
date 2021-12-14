@@ -1,7 +1,8 @@
 import React from 'react';
 
-function Button() {
-	return <button>TEST</button>;
+function Button(props) {
+	const { text } = props;
+	return <button>{text || 'TE'}</button>;
 }
 
 export default Button;
